@@ -1,0 +1,21 @@
+p   {
+    color: now;
+    background: yellow;
+    font-weight: bold;
+    text-align: center;
+
+}
+h1 {
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .glow {
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff;
+    color: #fff;
+  }
+  
+  .multiple {
+    text-shadow: 2px 2px 0 red, -2px -2px 0 blue;
+    color: white;
+  }
+  

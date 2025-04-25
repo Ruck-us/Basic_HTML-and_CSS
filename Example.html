@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harry Potter Table</title>
+    <style>
+        /* General page styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9ecef;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #6c757d;
+            color: #fff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover td {
+            background-color: #fff3cd; /* Soft yellow highlight */
+        }
+    </style>
+</head>
+<body>
+    <h1>Harry Potter Table</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>House</th>
+                <th>Patronus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Harry Potter</td>
+                <td>Gryffindor</td>
+                <td>Stag</td>
+            </tr>
+            <tr>
+                <td>Severus Snape</td>
+                <td>Slytherin</td>
+                <td>Doe</td>
+            </tr>
+            <tr>
+                <td>Hermione Granger</td>
+                <td>Gryffindor</td>
+                <td>Otter</td>
+            </tr>
+            <tr>
+                <td>Luna Lovegood</td>
+                <td>Ravenclaw</td>
+                <td>Hare</td>
+            </tr>
+            <tr>
+                <td>Draco Malfoy</td>
+                <td>Slytherin</td>
+                <td>None</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
